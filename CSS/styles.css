@@ -1,3 +1,46 @@
 body {
-  background-color: blue;
+  margin: 0px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+/* font-family: 'Sacramento', cursive; */
+}
+
+
+h1 {
+  margin:0px;
+  width: 50%;
+  margin:auto;
+  font-family: 'Sacramento', cursive;
+}
+
+.top-container {
+  background-color: #E3FDFD;
+  position: relative;
+  padding-top: 100px;
+
+}
+
+.top-cloud {
+  position: absolute;
+  right:375px;
+  top:50px;
+}
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+}
+.middle-container {
+  height:200px;
+  width: 200px;
+  background-color:red;
+  border:20px solid;
+
+}
+
+.bottom-container {
+  height:200px;
+  width: 200px;
+  background-color:yellow;
+  border:10px solid;
+
 }
